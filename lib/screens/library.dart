@@ -104,7 +104,7 @@ class _LibraryState extends State<Library> {
                                     onSelected: (value) {
                                       if (value == "0") {
                                         box.delete(playlists[index]);
-                                        // setState(() {
+                                      
                                           playlists = box.keys.toList();
                                         // });
                                       }
